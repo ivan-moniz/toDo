@@ -1,0 +1,106 @@
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    color: lightslategray;
+}
+
+hr {
+    min-width: 100%;
+    width:  450px;
+    border: 1px solid #f4f4f4;
+}
+
+.container {
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.form-control input {
+   width: 250px;
+   padding: 9px;
+   max-width: 100%;
+   border: 1px solid gainsboro;
+   margin: 0 10px;
+   box-shadow: 5px 5px 5px #f4f4f4;
+   border-radius: 5px;
+  
+
+}
+
+.form-control button {
+    width: 100px;
+    max-width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    background: rgba(31, 158, 230, 90);
+    color: #fff;
+    font-weight: bolder;
+    border: none;
+    box-shadow: 5px 5px 5px #f4f4f4;
+    border-radius: 5px
+}
+.form-control {
+    margin: 0 0 6rem 0;
+}
+
+.form-control button:hover {
+    background: rgba(31, 158, 230, .9);
+}
+
+.results {
+    height: 40px;
+    margin: 10px;
+    padding: 0 20px;
+    background: #f4f4f4;
+    text-align: left;
+    font-weight: bold;
+    
+}
+
+
+.results .btn-danger {
+    
+    background-color: #dc345a;
+    box-shadow: 5px 5px 5px #f4f4f4;
+    cursor: pointer;
+    border: none;
+    color: #000;
+    font-weight: bolder;
+    padding: 4px;
+}
+
+.button-group {
+  float: right; 
+}
+
+small {
+    position: absolute;
+    top: 100px;
+    left: 560px;
+    color: red;
+    visibility: hidden;
+}
+
+i {
+    position: absolute;
+    top: 100px;
+    left: 560px;
+    color: green;
+    visibility: hidden;
+}
+
+.error small{
+   visibility: visible;
+   font-style: italic;
+}
+
+.sucess i{
+   visibility: visible;
+}
